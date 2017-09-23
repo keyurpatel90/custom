@@ -47,10 +47,7 @@ fi
 
 echo "Copy Magento2 Shopfinder Module"
 mkdir -p ./app/code
-
-#copy magento module shopfinder folder
 cp -r /shopfinder/codes/Keyurpatel90 ./app/code/Keyurpatel90
-
 echo "Copy Magento2 Shopfinder Module Complete"
 
 mkdir ./var/di
